@@ -23,13 +23,8 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [
-  {
-   "link_doctype": "Stock Entry",
-   "link_fieldname": "courier_code"
-  }
- ],
- "modified": "2024-09-10 15:11:11.437903",
+ "links": [],
+ "modified": "2024-09-10 17:11:27.263444",
  "modified_by": "Administrator",
  "module": "MJ Courier",
  "name": "Courier Company",
