@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:courier_code",
  "creation": "2024-09-10 10:03:48.171187",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -12,7 +13,8 @@
   {
    "fieldname": "courier_code",
    "fieldtype": "Data",
-   "label": "Courier Code"
+   "label": "Courier Code",
+   "unique": 1
   },
   {
    "fieldname": "courier_company_name",
@@ -21,11 +23,17 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-09-10 12:46:28.465324",
+ "links": [
+  {
+   "link_doctype": "Stock Entry",
+   "link_fieldname": "courier_code"
+  }
+ ],
+ "modified": "2024-09-10 15:11:11.437903",
  "modified_by": "Administrator",
  "module": "MJ Courier",
  "name": "Courier Company",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
