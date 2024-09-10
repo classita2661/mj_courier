@@ -5,17 +5,24 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_rqxh"
+  "courier_code",
+  "courier_company_name"
  ],
  "fields": [
   {
-   "fieldname": "section_break_rqxh",
-   "fieldtype": "Section Break"
+   "fieldname": "courier_code",
+   "fieldtype": "Data",
+   "label": "Courier Code"
+  },
+  {
+   "fieldname": "courier_company_name",
+   "fieldtype": "Data",
+   "label": "Courier Company Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-10 11:29:27.229299",
+ "modified": "2024-09-10 12:46:28.465324",
  "modified_by": "Administrator",
  "module": "MJ Courier",
  "name": "Courier Company",
