@@ -245,6 +245,9 @@ app_license = "mit"
 fixtures = [
     {"dt":"Custom Field","filters":[
          ["module", "=", "MJ Courier"]
+]},
+    {"dt":"Print Format","filters":[
+         ["module", "=", "MJ Courier"]
 ]}
 ]
 
