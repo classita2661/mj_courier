@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:esdnon_esd",
  "creation": "2024-11-22 15:44:34.621224",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -11,15 +12,17 @@
   {
    "fieldname": "esdnon_esd",
    "fieldtype": "Data",
-   "label": "ESD/Non ESD"
+   "label": "ESD/Non ESD",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-22 15:45:17.122962",
+ "modified": "2024-11-22 17:19:24.111486",
  "modified_by": "Administrator",
  "module": "MJ Courier",
  "name": "Esd",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

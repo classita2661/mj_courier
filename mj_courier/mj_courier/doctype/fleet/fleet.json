@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:fleet",
  "creation": "2024-11-22 15:43:34.905590",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -12,15 +13,17 @@
    "fieldname": "fleet",
    "fieldtype": "Data",
    "label": "Fleet",
-   "length": 80
+   "length": 80,
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-11-22 15:43:55.112840",
+ "modified": "2024-11-22 17:19:49.325440",
  "modified_by": "Administrator",
  "module": "MJ Courier",
  "name": "Fleet",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
