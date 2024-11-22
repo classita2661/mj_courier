@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-22 15:43:34.905590",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fleet"
+ ],
+ "fields": [
+  {
+   "fieldname": "fleet",
+   "fieldtype": "Data",
+   "label": "Fleet",
+   "length": 80
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-22 15:43:55.112840",
+ "modified_by": "Administrator",
+ "module": "MJ Courier",
+ "name": "Fleet",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
